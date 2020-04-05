@@ -24,8 +24,13 @@ namespace WingtipToys
             Database.SetInitializer(new ProductDatabaseInitializer());
 
             //Create custom role and user
-            var roleActions = new RoleActions();
-            roleActions.AddUserAndRole();
+            new RoleActions().AddUserAndRole();
+
+            //Add Routes
+            RouteActions.RegisterCustomRoutes(RouteTable.Routes);
         }
+
+        
+
     }
 }

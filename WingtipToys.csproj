@@ -424,6 +424,7 @@
     </Compile>
     <Compile Include="Logic\ProductActions.cs" />
     <Compile Include="Logic\RoleActions.cs" />
+    <Compile Include="Logic\RouteActions.cs" />
     <Compile Include="Logic\ShoppingCartActions.cs" />
     <Compile Include="Login\Admin.aspx.cs">
       <DependentUpon>Admin.aspx</DependentUpon>
