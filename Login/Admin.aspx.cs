@@ -25,6 +25,8 @@ namespace WingtipToys.Login
             }
         }
 
+
+
         private bool FileExtensionAccepted(string filePath)
         {
             var isFileOk = false;
